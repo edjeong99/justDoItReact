@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+// 아래 머터리얼 스타일 설정을 삭제합니다.
+// import './materialize.scss';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//import InputWithStyle from './04/InputWithStyle';
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <nav>
+          <div className="title">
+            <div>두잇! 리액트 시작하기</div>
+          </div>
+        </nav>
+        <h1>머터리얼 CSS</h1>
+      </div>
+    );
+  }
 }
 
 export default App;
